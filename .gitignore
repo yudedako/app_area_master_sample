@@ -1,0 +1,30 @@
+# bundler files
+/.bundle
+/vendor/bundle
+/vendor/assets/bower_components
+
+# logfiles and tempfiles
+/log/*
+!/log/.keep
+/tmp
+
+# config files
+/config/database.yml
+/config/secrets.yml
+/config/environments/development.rb
+
+# Database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# system files
+/public/system
+/public/assets
+*.sqp
+*.rbc
+*.orig
+*~
+*.sublime*
+.project
+.DS_Store
+.ruby-version
