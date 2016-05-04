@@ -118,6 +118,7 @@ ActiveRecord::Schema.define(version: 20160504094754) do
     t.string  "code",       limit: 2,              null: false
     t.string  "name",       limit: 10,             null: false
     t.string  "name_kana",  limit: 20,             null: false
+    t.string  "short_name", limit: 10,             null: false
     t.string  "area_code",  limit: 2,              null: false
     t.string  "area_name",  limit: 20,             null: false
     t.integer "area_order",            default: 0, null: false
